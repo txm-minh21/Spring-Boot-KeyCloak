@@ -53,10 +53,12 @@ Keycloak Setup: https://www.keycloak.org/getting-started/getting-started-docker
 5. Create Realms roles:
 
    * Create 2 role admin and user
+     
 
    <img src="assets/images/create_realm_roles.png" width="1000" />
   
    * Associated roles to Client Role
+     
 
    <img src="assets/images/associated_roles.png" width="1000" />
    
@@ -80,7 +82,8 @@ Keycloak Setup: https://www.keycloak.org/getting-started/getting-started-docker
 
     * Toggle Temporary to Off so that the user does not need to update this password at the first login
 
-    <img src="assets/images/credentials_user.png" width="1000" />
+   
+   <img src="assets/images/credentials_user.png" width="1000" />
 
 8. Assign Client Roles to User:
 
