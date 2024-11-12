@@ -37,9 +37,10 @@ Keycloak Setup: https://www.keycloak.org/getting-started/getting-started-docker
    http://localhost:8080/admin/master/console/
 
 3. Create a realm:
+
    A realm in Keycloak is equivalent to a tenant. Each realm allows an administrator to create isolated groups of applications and users. Initially, Keycloak includes a single realm, called master. Use this realm only for managing Keycloak and not for managing any applications.
 
-4. Create client:
+5. Create client:
    
   * Client type: OpenID Connect
 
