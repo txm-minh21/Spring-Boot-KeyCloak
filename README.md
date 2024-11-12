@@ -97,11 +97,11 @@ Keycloak Setup: https://www.keycloak.org/getting-started/getting-started-docker
 
  Use url http://localhost:8080/realms/{REALM_NAME}/protocol/openid-connect/token to get access token
  
-    <img src="assets/images/test_postman.png" width="1000" />
+ <img src="assets/images/test_postman.png" width="1000" />
 
  Set access token to header to access your web
 
-    <img src="assets/images/test_postman-2.png" width="1000" />
+ <img src="assets/images/test_postman-2.png" width="1000" />
     
 ## Contributing
 
