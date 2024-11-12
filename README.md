@@ -9,6 +9,7 @@ This project demonstrates how to secure a Spring Boot application using Keycloak
 - [Getting Started](#getting-started)
    - [Technology](#technology)
    - [Installation](#installation)
+   - [Test Postman](#test-Postman)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -90,7 +91,17 @@ Keycloak Setup: https://www.keycloak.org/getting-started/getting-started-docker
     Click Role mapping, Assign role to Client Roles and Realm Admin
 
     <img src="assets/images/role_mapping_user.png" width="1000" />
-   
+
+### Test Postman
+
+ Use url http://localhost:8080/realms/{REALM_NAME}/protocol/openid-connect/token to get access token
+ 
+    <img src="assets/images/test_postman.png" width="1000" />
+
+ Set access token to header to access your web
+
+    <img src="assets/images/test_postman-2.png" width="1000" />
+    
 ## Contributing
 
 Contributions are welcome! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to this project.
